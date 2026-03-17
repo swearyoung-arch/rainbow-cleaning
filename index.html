@@ -16,11 +16,29 @@
         .case-study { background: #f9f9f9; padding: 3rem 0; }
         .case-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: center; margin-bottom: 40px; }
         .case-img { width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        .cta-button { background: #28a745; color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 50px; font-weight: bold; margin-top: 1rem; display: inline-block; }
+        .cta-button { 
+    background: #06C755; /* LINE 的招牌綠色 */
+    color: white; 
+    padding: 1.2rem 2.5rem; 
+    text-decoration: none; 
+    border-radius: 50px; 
+    font-weight: bold; 
+    font-size: 1.2rem;
+    margin-top: 1.5rem; 
+    display: inline-block;
+    transition: 0.3s;
+    box-shadow: 0 4px 15px rgba(6, 199, 85, 0.3);
+}
+.cta-button:hover { 
+    background: #05a346; 
+    transform: scale(1.05); 
+    box-shadow: 0 6px 20px rgba(6, 199, 85, 0.5);
+}}
         .footer { background: #333; color: white; text-align: center; padding: 2rem; margin-top: 2rem; }
         h2 { text-align: center; color: #0056b3; border-bottom: 2px solid #eee; padding-bottom: 10px; }
         @media (max-width: 768px) { .case-grid { grid-template-columns: 1fr; } .hero h1 { font-size: 2rem; } }
     </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">    
 </head>
 <body>
 
@@ -31,7 +49,9 @@
 <section class="hero">
     <h1>給您最純淨的空間</h1>
     <p>新竹專業清潔團隊 | 水塔清洗 | 高壓清洗 | 地板維護</p>
-    <a href="#" class="cta-button">立即線上諮詢</a>
+    <a href=https://line.me/ti/p/MZ0MvuHAqK class="cta-button" target="_blank">
+    <i class="fab fa-line"></i> 💬 加 LINE 立即估價
+</a>
 </section>
 
 <div class="container">
